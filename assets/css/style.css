@@ -1,0 +1,618 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Lato:wght@400;700&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Inter", sans-serif;
+    font-weight: 500;
+}
+h2 {
+    font-weight: 500;
+    font-size: 60px;
+    line-height: 73px;
+}
+p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+}
+a {
+    font-family: "Inter", sans-serif;
+}
+
+/*---------------------------------------
+        header navigation area
+---------------------------------------*/
+
+.header-bg {
+    background-color: #f3fcf7;
+}
+.header-bg .row {
+    align-items: center;
+    padding-top: 20px;
+}
+.header-bg .row .col-lg-2 img {
+    width: 100px;
+    height: auto;
+}
+.row .col-lg-10 {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.row .col-lg-10 .navbar {
+    padding: 0;
+}
+.row .col-lg-10 .nav-item a {
+    color: #1d1d1f;
+    margin-right: 10px;
+}
+.row .col-lg-10 .nav-item .active {
+    color: #06c167;
+}
+.row .col-lg-10 .nav-item a:hover {
+    color: #06c167;
+}
+
+/*---------------------------------------
+        header navigation ended 
+---------------------------------------*/
+
+/*---------------------------------------
+        Banner Section area 
+---------------------------------------*/
+.banner__section {
+    background-color: #f3fcf7;
+    padding: 50px 0 100px 0;
+    position: relative;
+}
+
+.banner__section .banner__details {
+    max-width: 500px;
+}
+.banner__section .banner__details .banner__headline {
+    padding: 75px 0 130px 0;
+}
+.banner__section .row .banner__details h2 {
+    font-weight: 700;
+    font-size: 75px;
+    line-height: 91px;
+    color: #1d1d1f;
+}
+.banner__section .row .banner__details p {
+    padding: 15px 0 30px;
+    font-size: 16px;
+    font-weight: 300;
+    font-style: normal;
+    line-height: 23px;
+    color: #1d1d1fbf;
+}
+.banner__details a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 16px;
+    line-height: 19px;
+    padding: 20px 50px 20px 30px;
+    background-color: #06c167;
+    border: 1px solid transparent;
+    transition: 0.3s;
+}
+.banner__details a:hover {
+    background-color: #f3fcf7;
+    color: #06c167;
+    border: 1px solid #06c167;
+}
+.banner__image {
+    position: relative;
+}
+.banner__image .girl {
+    position: absolute;
+    top: 30px;
+    right: 75px;
+}
+.banner__image .polca {
+    position: absolute;
+    right: 40px;
+    top: 500px;
+}
+.banner__image .quality {
+    position: absolute;
+    right: 25px;
+    top: 220px;
+}
+.banner__image .rating {
+    position: absolute;
+    left: 0;
+    top: 330px;
+}
+.banner__section .banner__image {
+    padding-left: 85px;
+}
+/*---------------------------------------
+        Banner Section Ended 
+---------------------------------------*/
+
+/*---------------------------------------
+        3 logo section  
+---------------------------------------*/
+.logo__3 {
+    overflow: hidden;
+    padding-top: 30px;
+    margin-bottom: 100px;
+}
+.logo__3 .logos {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+.logo__3 .logos a {
+    text-decoration: none;
+    color: rgba(128, 128, 128, 0.4);
+    font-size: 22px;
+    font-weight: 700;
+    transition: 0.3s;
+}
+.logo__3 .logos img {
+    opacity: 50%;
+    margin-right: 7px;
+    transition: 0.3s;
+}
+.logo__3 .logos img:hover {
+    opacity: 1;
+}
+.logo__3 .logos a:hover {
+    color: rgba(128, 128, 128);
+}
+/*---------------------------------------
+        3 logo section Ended
+---------------------------------------*/
+
+/*---------------------------------------
+        section delivery
+---------------------------------------*/
+.section_delivery {
+    margin: 160px 190px 65px 190px;
+    border-top: 1px solid rgba(124, 124, 124, 0.401);
+    border-bottom: 1px solid rgba(124, 124, 124, 0.401);
+}
+.section_delivery .delivery {
+    padding: 85px 0;
+}
+.section_delivery .col-lg-3 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
+.section_delivery .col-lg-3 h3 {
+    font-size: 18px;
+    line-height: 22px;
+    font-weight: 400;
+    color: #1d1d1f;
+}
+.section_delivery .col-lg-3 p {
+    padding: 5px 0;
+    color: #1d1d1faf;
+    margin: 0;
+    font-size: 14px;
+    line-height: 17px;
+    font-weight: 500;
+}
+.section_delivery .col-lg-3 i {
+    cursor: pointer;
+    color: #06c167;
+    font-size: 26px;
+    transition: 0.3s;
+}
+.section_delivery .col-lg-3 i:hover {
+    color: red;
+}
+/*---------------------------------------
+        section delivery ended
+---------------------------------------*/
+
+/*---------------------------------------
+        section benefit
+---------------------------------------*/
+.section__benefit {
+    padding: 65px 0 135px 0;
+}
+.section__benefit .row {
+    display: flex;
+    align-items: center;
+}
+.section__benefit .row #right {
+    margin-top: 60px;
+}
+.section__benefit .row h4 {
+    font-style: normal;
+    font-size: 15px;
+    line-height: 18px;
+    font-weight: 500;
+    color: #1d1d1f;
+    margin-bottom: 35px;
+}
+.section__benefit .row h2 {
+    font-style: normal;
+    font-size: 60px;
+    line-height: 73px;
+    font-weight: 500;
+    color: #1d1d1f;
+}
+.section__benefit .row ul {
+    list-style: none;
+    padding: 0;
+}
+.section__benefit .row ul li {
+    font-size: 16px;
+    line-height: 19px;
+    font-weight: 400;
+    font-style: normal;
+    color: #1d1d1f;
+    padding: 10px 0;
+}
+.section__benefit .row .benefit__points {
+    margin: 40px 0;
+}
+.section__benefit .row i {
+    margin-right: 10px;
+    color: #06c167;
+    font-size: 22px;
+}
+/*---------------------------------------
+        section benefit ended
+---------------------------------------*/
+
+/*---------------------------------------
+        promo section
+---------------------------------------*/
+.promo__section {
+    padding: 65px 0 110px 0;
+}
+.promo__section .row {
+    display: flex;
+    align-items: center;
+}
+.promo__section .row h4 {
+    font-style: normal;
+    font-size: 15px;
+    line-height: 18px;
+    font-weight: 500;
+    color: #1d1d1f;
+    margin-bottom: 35px;
+}
+.promo__section .row h2 {
+    font-style: normal;
+    font-size: 60px;
+    line-height: 73px;
+    font-weight: 500;
+    color: #1d1d1f;
+    max-width: 535px;
+}
+.promo__section .row img {
+    margin: 0 0 0 130px;
+}
+.promo__section .col-lg-6 .row {
+    margin-top: 50px;
+}
+.promo__section .col-lg-6 .row h3 {
+    font-size: 40px;
+    color: #06c167;
+    line-height: 48px;
+    font-style: normal;
+    font-weight: 600;
+}
+.promo__section .col-lg-6 .row p {
+    font-size: 15px;
+    color: #1d1d1fb2;
+    line-height: 18px;
+    font-style: normal;
+    font-weight: 400;
+}
+.promo__section .promo__button {
+    margin-top: 30px;
+}
+.promo__section a {
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+    font-size: 16px;
+    line-height: 19px;
+    padding: 28px 52px 28px 30px;
+    background-color: #06c167;
+    border: 1px solid transparent;
+    transition: 0.3s;
+}
+.promo__section a:hover {
+    background-color: #f3fcf7;
+    color: #06c167;
+    border: 1px solid #06c167;
+}
+/*---------------------------------------
+        promo section ended
+---------------------------------------*/
+
+/*---------------------------------------
+        variety section
+---------------------------------------*/
+.section__variety {
+    margin: 110px 0 140px 0;
+    padding: 20px 18.5%;
+}
+.headline {
+    text-align: center;
+    margin-bottom: 100px;
+}
+.headline p {
+    font-size: 15px;
+    line-height: 18px;
+    font-style: normal;
+    font-weight: 500;
+    color: #1d1d1f;
+}
+.headline h2 {
+    font-size: 60px;
+    line-height: 73px;
+    font-style: normal;
+    font-weight: 500;
+    color: #1d1d1f;
+}
+.section__variety .col-lg-3 {
+    padding: 0;
+    margin: 0;
+}
+.section__variety #description {
+    background-color: #e5fdf0;
+    padding: 35px;
+    height: 293px;
+    width: 293px;
+    border: 1px solid #06c167;
+}
+.section__variety #description h4 {
+    font-size: 32px;
+    line-height: 39px;
+    font-weight: 500;
+    font-style: normal;
+    color: #1d1d1f;
+}
+.section__variety #description p {
+    font-size: 16px;
+    line-height: 19px;
+    font-weight: 400;
+    font-style: normal;
+    color: #1d1d1f;
+    margin: 25px 0;
+}
+.section__variety .discover__btn {
+    padding-top: 30px;
+}
+.section__variety #description a {
+    text-decoration: none;
+    padding: 8px 30px 8px 8px;
+    background-color: #cbffe7;
+    color: #06c167;
+    border: 1px solid transparent;
+    transition: 0.3s;
+}
+.section__variety #description a:hover {
+    background-color: #f3fcf7;
+    color: #06c167;
+    border: 1px solid #06c167;
+}
+/*---------------------------------------
+        variety section Ended
+---------------------------------------*/
+
+/*---------------------------------------
+        popular section 
+---------------------------------------*/
+.section__popular {
+    padding: 140px 0 110px 0;
+}
+.section__popular .headline {
+    text-align: left;
+    padding-bottom: 0;
+}
+.section__popular .col-lg-3 .card {
+    border-radius: 0;
+    text-align: center;
+    padding: 30px;
+}
+.section__popular .col-lg-3 #active {
+    border: 2px solid #06c167;
+}
+.section__popular .card img {
+    width: 190px;
+    height: 190px;
+    margin: auto;
+}
+.section__popular .card .card-text {
+    padding-bottom: 30px;
+}
+.section__popular .col-lg-3 .card .rating i {
+    padding: 15px 0;
+    color: #00be62;
+    font-size: 14px;
+}
+.section__popular .card-body .card-title {
+    color: #1d1d1f;
+}
+.section__popular .card-body .card-text {
+    padding-top: 15px;
+    font-size: 20px;
+    color: #06c167;
+}
+.section__popular .card-body img {
+    height: 25px;
+    width: 40px;
+}
+.section__popular .col-lg-3 .card .popular__btn i {
+    margin-left: 15px;
+}
+.section__popular .card-body a {
+    text-decoration: none;
+    padding: 12px 25px 12px 20px;
+    color: #06c167;
+    border: 2px solid #06c167;
+    transition: 0.3s;
+    border: 1px solid #06c167;
+}
+.section__popular .card-body p {
+    font-weight: 500;
+}
+.section__popular .card-body a:hover {
+    background-color: #06c167;
+    color: #fff;
+    border: 1px solid #06c167;
+}
+/*---------------------------------------
+        popular section Ended
+---------------------------------------*/
+
+/*---------------------------------------
+        veggie section 
+---------------------------------------*/
+.section__veggie {
+    padding: 180px 0;
+    position: relative;
+}
+.veggie__headline img {
+    width: 100%;
+    margin: auto;
+}
+.veggie__headline .veggie__details {
+    position: absolute;
+    top: 335px;
+    left: 540px;
+    text-align: center;
+    margin: auto;
+}
+.veggie__headline .veggie__details h2 {
+    font-style: normal;
+    font-size: 60px;
+    line-height: 73px;
+    font-weight: 500;
+    color: #fff;
+    padding-bottom: 50px;
+}
+.section__veggie .veggie__details a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 16px;
+    line-height: 19px;
+    padding: 20px 50px 20px 30px;
+    background-color: #06c167;
+    border: 1px solid transparent;
+    transition: 0.3s;
+}
+.section__veggie .veggie__details a:hover {
+    background-color: #f3fcf7;
+    color: #06c167;
+    border: 1px solid #06c167;
+}
+/*---------------------------------------
+        veggie section Ended
+---------------------------------------*/
+
+/*---------------------------------------
+        footer section
+---------------------------------------*/
+.footer__section {
+    padding-top: 100px;
+}
+.footer__section .logo__text {
+    margin: 40px 0;
+    max-width: 285px;
+    color: #1d1d1f;
+    font-size: 16px;
+    line-height: 19px;
+    font-weight: 400;
+    font-style: normal;
+}
+.footer__section .logo__social i {
+    margin-right: 20px;
+    color: #1d1d1f;
+    font-size: 28px;
+    transition: 0.3s;
+}
+.footer__section .logo__social i:hover {
+    color: red;
+}
+.footer__section .col-lg-2 ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.footer__section .col-lg-2 ul a {
+    text-decoration: none;
+    color: #1d1d1f;
+}
+.footer__section .col-lg-2 ul a:hover li {
+    text-decoration: underline;
+    color: #06c167;
+}
+.footer__section .col-lg-2 ul li {
+    color: #1d1d1f;
+    padding: 6px 0;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+}
+.footer__section h4 {
+    padding-bottom: 25px;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+}
+.footer__section .col-lg-4 .right__text {
+    max-width: 340px;
+    padding: 10px 0;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #1d1d1f;
+}
+.footer__section .right__form input {
+    border-radius: 0;
+    border: 0;
+}
+.footer__section .right__form input[type="email"] {
+    background-color: #f0f1ec;
+    padding: 14px 20px 14px 14px;
+    border: 1px solid transparent;
+}
+.footer__section .right__form input[type="submit"] {
+    background-color: #00be62;
+    color: white;
+    padding: 14px 22px;
+    transition: 0.3s;
+    border: 1px solid transparent;
+}
+.footer__section .right__form input:hover {
+    background-color: #fff;
+    color: #00be62;
+    border: 1px solid #00be62;
+}
+.footer__section .copyright {
+    text-align: center;
+    padding: 80px 0 20px 0;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #1d1d1f;
+}
+/*---------------------------------------
+        footer section Ended
+---------------------------------------*/
