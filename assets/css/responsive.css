@@ -1,0 +1,37 @@
+/* Define styles for desktop and larger screens */
+body {
+    font-size: 16px;
+  }
+  
+  /* Tablet styles (portrait and landscape) */
+  @media screen and (max-width: 1024px) {
+    .banner__section {
+        padding: 20px 0 50px 0;
+        text-align: center;
+        width: 100%;
+        margin: auto;
+    }
+    .section__benefit {
+        text-align: center;
+    }
+    .promo__section {
+        text-align: center;
+    }
+  }
+  
+  /* Phone styles (portrait and landscape) */
+  @media screen and (max-width: 768px) {
+    .banner__section {
+        padding: 20px 0 50px 0;
+        text-align: center;
+        width: 100%;
+        margin: auto;
+    }
+    .section__benefit {
+        text-align: center;
+    }
+    .promo__section {
+        text-align: center;
+    }
+  }
+  

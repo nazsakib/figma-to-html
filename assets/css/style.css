@@ -32,6 +32,9 @@ a {
     font-family: "Inter", sans-serif;
 }
 
+.container {
+    width: 100%;
+}
 /*---------------------------------------
         header navigation area
 ---------------------------------------*/
@@ -79,9 +82,9 @@ a {
     position: relative;
 }
 
-.banner__section .banner__details {
+/* .banner__section .banner__details {
     max-width: 500px;
-}
+} */
 .banner__section .banner__details .banner__headline {
     padding: 75px 0 130px 0;
 }
@@ -227,7 +230,7 @@ a {
         section benefit
 ---------------------------------------*/
 .section__benefit {
-    padding: 65px 0 135px 0;
+    padding: 65px 0 100px 0;
 }
 .section__benefit .row {
     display: flex;
@@ -279,12 +282,13 @@ a {
         promo section
 ---------------------------------------*/
 .promo__section {
-    padding: 65px 0 110px 0;
-    text-align: center;
+    padding: 0 0 110px 0;
 }
 .promo__section .row {
     display: flex;
     align-items: center;
+    justify-content: space-between;
+
 }
 .promo__section .row h4 {
     font-style: normal;
@@ -304,6 +308,7 @@ a {
 }
 .promo__section .row img {
     /* margin: 0 0 0 130px; */
+    padding: 30px 0;
 }
 .promo__section .col-lg-6 .row {
     margin-top: 50px;
@@ -349,7 +354,7 @@ a {
         variety section
 ---------------------------------------*/
 .section__variety {
-    margin: 110px 0 140px 0;
+    margin: 0 0 140px 0;
     padding: 20px 18.5%;
 }
 .headline {
@@ -617,3 +622,4 @@ a {
 /*---------------------------------------
         footer section Ended
 ---------------------------------------*/
+
