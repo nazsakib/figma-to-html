@@ -280,6 +280,7 @@ a {
 ---------------------------------------*/
 .promo__section {
     padding: 65px 0 110px 0;
+    text-align: center;
 }
 .promo__section .row {
     display: flex;
@@ -299,10 +300,10 @@ a {
     line-height: 73px;
     font-weight: 500;
     color: #1d1d1f;
-    max-width: 535px;
+    /* max-width: 535px; */
 }
 .promo__section .row img {
-    margin: 0 0 0 130px;
+    /* margin: 0 0 0 130px; */
 }
 .promo__section .col-lg-6 .row {
     margin-top: 50px;
